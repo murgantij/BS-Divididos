@@ -12,54 +12,124 @@
             <script src="assets/js/bootstrap.bundle.min.js"></script>
         </header>
         <main>
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#Discos">Discos</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Integrantes">Integrantes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Historia">Historia</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Formulario
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#InputFullName">Nombre</a></li>
+                          <li><a class="dropdown-item" href="#InputEmail">Email</a></li>
+                          <li><a class="dropdown-item" href="#CheckTTyCC">Terminos y Condiciones</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Enviar</a></li>
+                        </ul>
+                      </li>
+                     <!--<li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>-->
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <br>  <br>
+           
             
             <div class="container text-center">
-                <div class="row offset-md-1 col-10">
-                    <div class="card mb-3">
-                        <img src="assets/img/logo.jpg" class="card-img-top mx-auto d-block" alt="Divididos">
+                <img src="assets/img/Divididos-logo.svg"  alt="Divididos" class="logo" width: 50%;">
+            </div>
+            <br>
+            <div class="separador"></div>
+            <br>
+            
+            <div class="container-fluid text-center">
+
+                <div class="row">
+                    <h2 id="Integrantes">Integrantes</h2>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="assets/img/integrantes/mollo.jpg" class="card-img-top" alt="Ricardo Mollo">
+                        <div class="card-body">
+                            <h5 class="card-title">Ricardo Mollo</h5>
+                            <p class="card-text">Voz y guitarra (1988 - presente)</p>
+                            <p class="card-text"><small class="text-body-secondary">considerado uno de los mejores músicos y compositores del rock argentino. Se destaca también por sus virtuosismo con la guitarra</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/integrantes/arnedo.jpg" class="card-img-top" alt="Diego Arnedo">
+                        <div class="card-body">
+                            <h5 class="card-title">Diego Arnedo</h5>
+                            <p class="card-text">Bajo (1988 - presente)</p>
+                            <p class="card-text"><small class="text-body-secondary">En el año 2006, fue declarado mejor bajista nacional de los últimos veinte años por la edición de los Rock & Pop Awards.</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/integrantes/catriel.jpg" class="card-img-top" alt="Catriel Ciavarella">
+                        <div class="card-body">
+                            <h5 class="card-title">Catriel Ciavarella</h5>
+                            <p class="card-text">Bateria (2004 - presente)</p>
+                            <p class="card-text"><small class="text-body-secondary">Desde el 2004 se convirtió en el baterista de Divididos, aunque cuando tenía tan sólo 14 años, Ricardo Mollo intentó sumarlo , sin éxito.</small></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-           <!-- <div class="bg-black text-white">
-                <img class="mx-auto d-block" src="assets/img/logo.jpg" alt="Divididos">
-            </div>
-            -->
+            </div>  
+            <br>
+            <div class="separador"></div>
+            <br>    
             <div class="container text-center">
                 <div class="row">
-                    <div class="offset-md-3 col-6">
-                        <h2>Discos</h2>
-                    </div>
+                    <h2 id="Discos">Discos</h2>
                 </div>
                 <div class="row">
                     <div class="offset-md-3 col-6">
                         <div id="carouselDiscos" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/img/40_dibujos.jpg" class="d-block w-100" alt="40 Dibujos">
+                                    <img src="assets/img/carrousel/40_dibujos.jpg" class="d-block w-100" alt="40 Dibujos">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/acariciando_lo_aspero.jpg" class="d-block  w-100" alt="Acariciando lo aspero">
+                                    <img src="assets/img/carrousel/acariciando_lo_aspero.jpg" class="d-block  w-100" alt="Acariciando lo aspero">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/la_era_de_la_boludez.jpg" class="d-block  w-100" alt="La era de la boludez">
+                                    <img src="assets/img/carrousel/la_era_de_la_boludez.jpg" class="d-block  w-100" alt="La era de la boludez">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/otro_le_travaladna.jpg" class="d-block  w-100" alt="Otro le travaladna">
+                                    <img src="assets/img/carrousel/otro_le_travaladna.jpg" class="d-block  w-100" alt="Otro le travaladna">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/gol_de_mujer.jpg" class="d-block  w-100" alt="Gol de mujer">
+                                    <img src="assets/img/carrousel/gol_de_mujer.jpg" class="d-block  w-100" alt="Gol de mujer">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/narigon_del_siglo.jpg" class="d-block  w-100" alt="Narigon del siglo">
+                                    <img src="assets/img/carrousel/narigon_del_siglo.jpg" class="d-block  w-100" alt="Narigon del siglo">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/vengo_del_placard_de_otro.jpg" class="d-block  w-100" alt="Vengo del placard de otro">
+                                    <img src="assets/img/carrousel/vengo_del_placard_de_otro.jpg" class="d-block  w-100" alt="Vengo del placard de otro">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/amapola_del_66.jpg" class="d-block  w-100" alt="Amapola del 66">
+                                    <img src="assets/img/carrousel/amapola_del_66.jpg" class="d-block  w-100" alt="Amapola del 66">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/img/haciendo_cosas_raras.jpg" class="d-block  w-100" alt="Haciendo cosas raras">
+                                    <img src="assets/img/carrousel/haciendo_cosas_raras.jpg" class="d-block  w-100" alt="Haciendo cosas raras">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselDiscos" data-bs-slide="prev">
@@ -74,44 +144,14 @@
                     </div>
                 </div>
             </div>
-            <br><br><br>
+            <br>
+            <div class="separador"></div>
+            <br>  
+           
             <div class="container text-center">
-
-                <div class="row">
-                    <div class="offset-md-3 col-6">
-                    <h2>Integrantes</h2>
+                <div class="row mb-5">
+                    <h2 id="Historia">Historia</h2>
                 </div>
-                <div class="card-group">
-                    <div class="card">
-                        <img src="assets/img/mollo.jpg" class="card-img-top" alt="Ricardo Mollo">
-                        <div class="card-body">
-                            <h5 class="card-title">Ricardo Mollo</h5>
-                            <p class="card-text">Voz y guitarra (1988 - presente)</p>
-                            <p class="card-text"><small class="text-body-secondary">considerado uno de los mejores músicos y compositores del rock argentino. Se destaca también por sus virtuosismo con la guitarra</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/arnedo.jpg" class="card-img-top" alt="Diego Arnedo">
-                        <div class="card-body">
-                            <h5 class="card-title">Diego Arnedo</h5>
-                            <p class="card-text">Bajo (1988 - presente)</p>
-                            <p class="card-text"><small class="text-body-secondary">En el año 2006, fue declarado mejor bajista nacional de los últimos veinte años por la edición de los Rock & Pop Awards.</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/img/catriel.jpg" class="card-img-top" alt="Catriel Ciavarella">
-                        <div class="card-body">
-                            <h5 class="card-title">Catriel Ciavarella</h5>
-                            <p class="card-text">Bateria (2004 - presente)</p>
-                            <p class="card-text"><small class="text-body-secondary">Desde el 2004 se convirtió en el baterista de Divididos, aunque cuando tenía tan sólo 14 años, Ricardo Mollo intentó sumarlo , sin éxito.</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>        
-            <br><br><br>
-
-            <br><br><br>
-            <div class="container text-center">
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -119,13 +159,46 @@
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Origenes</h5>
+                            <h5 class="card-title">SUMO</h5>
                             <p class="card-text"><small class="text-body-secondary">Tras la disolución de Sumo debido a la muerte de su líder Luca Prodan, el 22 de diciembre de 1987, el resto de sus integrantes Ricardo Mollo, Diego Arnedo, Roberto Pettinato, Alberto "Superman" Troglio y Germán Daffunchio deciden reflexionar acerca del futuro de la banda. Daffunchio y Timmy Mackern (productor de Sumo y amigo de Luca) vuelven a las sierras cordobesas y el resto de la banda se queda ensayando en una sala de El Palomar. El 5 de marzo de 1988, Sumo se presenta en el Chateau Rock, con Daffunchio, Mollo, Pettinato, Arnedo y Troglio</small></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="separador"></div>
+            <br>
+            <h3>Contactanos</h3>
+<br>
+
+            <div class="form">
+                <div class="offset-md-2 col-8">
+                    
+                    <form>
+                        <div class="mb-5">
+                            <label for="InputFullName" class="form-label">Nombre Completo.</label>
+                            <input type="text" class="form-control" id="InputFullName">
+                            <div id="emailHelp" class="form-text">Ingresá tus nombre/s y apellido/s.</div>
+                        </div>
+                        <div class="mb-5">
+                            <label for="InputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie.</div>
+                        </div>
+                        <div class="mb-4 form-check" style="text-align: left">
+                            <input type="checkbox" class="form-check-input" id="CheckTTyCC">
+                            <label class="form-check-label" for="CheckTTyCC">Acepto los terminos y condiciones</label>
+                        </div>
+                        <button id="Enviar" type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+         </div>   
         </main>
-        <footer></footer>
+        <br><br><br>
+        <footer>
+            <div class="container text-center">
+                Creada por Javier Murganti <a href="mailto:javier.murganti@gmail.com">javier.murganti@gmail.com</a>
+            </div>
+        </footer>
     </body>
 </html>
