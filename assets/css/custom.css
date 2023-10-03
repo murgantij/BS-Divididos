@@ -29,6 +29,7 @@
 .separador{
     background-image: url('../img/separador.jpg');
     height: 20px;
+    opacity: 0.25;
 }
 
 .form{
